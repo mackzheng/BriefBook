@@ -1,0 +1,19 @@
+natrium:/ $ service list | grep media.
+
+31	media_projection: [android.media.projection.IMediaProjectionManager]
+36	media_router: [android.media.IMediaRouterService]
+37	media_session: [android.media.session.ISessionManager]
+62	midi: [android.media.midi.IMidiManager]
+64	audio: [android.media.IAudioService]
+105	media.camera.proxy: [android.hardware.ICameraServiceProxy]
+123	media.camera: [android.hardware.ICameraService]
+131	media.sound_trigger_hw: [android.hardware.ISoundTriggerHwService]
+132	media.radio: [android.hardware.IRadioService]
+133	media.audio_policy: [android.media.IAudioPolicyService]
+141	media.audio_flinger: [android.media.IAudioFlinger]
+143	media.drm: [android.media.IMediaDrmService]
+144	media.codec: [android.media.IMediaCodecService]
+145	media.resource_manager: [android.media.IResourceManagerService]
+146	media.extractor: [android.media.IMediaExtractorService]
+147	media.player: [android.media.IMediaPlayerService]
+
