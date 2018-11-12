@@ -1,5 +1,5 @@
 # BriefBook
-Android学习过程
+Android学习内容
 
 使编译速度加快的方法：
 修改：settings.gradle 的内容
