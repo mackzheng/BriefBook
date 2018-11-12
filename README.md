@@ -1,4 +1,6 @@
 # BriefBook
+后续文章更新：https://www.jianshu.com/u/112f511aff19 
+
 Android学习内容
 
 使编译速度加快的方法：
