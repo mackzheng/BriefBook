@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Retrofit+Dagger+Rxjava+GeenDao</string>
+    <string name="action_settings">Settings</string>
+</resources>

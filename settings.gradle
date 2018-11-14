@@ -1,3 +1,5 @@
+include ':Camera', ':Arouter'
+
 //include ':app'
 //include ':DataStructure'
 //include ':Arithmetic'
@@ -6,6 +8,9 @@
 //include ':leakcanary'
 //include ':blockcanary'
 //include ':DesignMode'
+//include ':retrofit+dagger+rxjava+geendao'
+
+//include ':Cameralive'
 //include ':eventbus'
 //include ':Retrofit'
 //include ':LeakCanary'
@@ -19,4 +24,4 @@
 //include ':JsBridge'
 //include ':GpuImage'
 //include ':MediaAv'
-include ':Dragger'
+//include ':Dragger'

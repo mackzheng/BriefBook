@@ -37,5 +37,5 @@ dependencies {
     //导入EventBus库
     //
     implementation 'org.greenrobot:eventbus:3.1.1'
-    implementation 'org.greenrobot:eventbus-annotation-processor:3.1.1'
+//    implementation 'org.greenrobot:eventbus-annotation-processor:3.1.1'
 }
