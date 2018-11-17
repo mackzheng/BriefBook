@@ -1,27 +1,53 @@
-//include ':Camera', ':Arouter'
-
 //include ':app'
-include ':DataStructure'
-//include ':Arithmetic'
-//include ':JavaBasics'
-//include ':LeakCanary'
-//include ':leakcanary'
-//include ':blockcanary'
-//include ':DesignMode'
-//include ':retrofit+dagger+rxjava+geendao'
 
+
+//基础
+//include ':JavaBasics'
+//include ':DataStructure'
+//include ':Arithmetic'
+//include ':DesignMode'
+
+//跨平台开发
+//include ':Hybris'
+//include ':Reactnative'
+//include ':Flutter'
+
+//相机
+//include ':Camera'
 //include ':Cameralive'
-//include ':eventbus'
+
+//网络
 //include ':Retrofit'
+//include ':Okhttp'
+//include ':Volley'
+
+//观察者
+//include ':eventbus'
+//include ':RxJava'
+
+//注解，依赖注入
+//include ':Dragger'
+//include ':Butterknife'
+
+//数据库
+//include ':GreenDao'
+
+//js桥接器
+//include ':JsBridge'
+
+//性能优化
 //include ':LeakCanary'
 //include ':BlockCanary'
-//include ':Okhttp'
-//include ':Butterknife'
-//include ':RxJava'
-//include ':Volley'
+
+//图片 多媒体
 //include ':Glide'
-//include ':GreenDao'
-//include ':JsBridge'
 //include ':GpuImage'
 //include ':MediaAv'
-//include ':Dragger'
+
+
+//native开发
+include ':Jnistudy'
+
+//框架
+//include ':retrofit+dagger+rxjava+geendao'
+//include ':Arouter' 路由框架
