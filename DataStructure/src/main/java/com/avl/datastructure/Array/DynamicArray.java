@@ -169,7 +169,8 @@ public class DynamicArray<E> {
         data[size] = null; //释放空间，GC  loitering Objects
 
         //动态减容
-        if(size == data.length/2)
+//      if(size == data.length/2)
+        if(size == data.length/4 && data.length/2!=0 )
             resize(data.length/2);
 
         return ret;
@@ -205,10 +206,14 @@ public class DynamicArray<E> {
         }
     }
 
-
+    /**
+     * 扩容和缩容
+     * @param newCapacity
+     */
     private void resize(int newCapacity)
     {
         E[] newData = (E[]) new Object[newCapacity];
+
         for (int i=0;i<size;i++)
         {
             newData[i] = data[i];
