@@ -4,10 +4,11 @@ Android学习过程   https://www.jianshu.com/u/112f511aff19
 使编译的速度加快的方法：
 修改：settings.gradle 的内容
 
-例如：只需要Dagger2 可以如下配置：
+例如：只需要DataStructure 可以如下配置：
+
 //include ':app'
 
-//include ':DataStructure' 数据结构
+include ':DataStructure' 数据结构
 
 //include ':Arithmetic'   算法
 
