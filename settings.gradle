@@ -1,7 +1,7 @@
-include ':Camera', ':Arouter'
+//include ':Camera', ':Arouter'
 
 //include ':app'
-//include ':DataStructure'
+include ':DataStructure'
 //include ':Arithmetic'
 //include ':JavaBasics'
 //include ':LeakCanary'
