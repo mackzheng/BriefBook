@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/BriefBook.iml" filepath="$PROJECT_DIR$/BriefBook.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Hybris/Hybris.iml" filepath="$PROJECT_DIR$/Hybris/Hybris.iml" />
       <module fileurl="file://$PROJECT_DIR$/Jnistudy/Jnistudy.iml" filepath="$PROJECT_DIR$/Jnistudy/Jnistudy.iml" />
     </modules>
   </component>
