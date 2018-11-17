@@ -3,7 +3,7 @@
 
 //基础
 //include ':JavaBasics'
-//include ':DataStructure'
+include ':DataStructure'
 //include ':Arithmetic'
 //include ':DesignMode'
 
@@ -46,7 +46,7 @@
 
 
 //native开发
-include ':Jnistudy'
+//include ':Jnistudy'
 
 //框架
 //include ':retrofit+dagger+rxjava+geendao'

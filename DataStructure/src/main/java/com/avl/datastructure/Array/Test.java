@@ -10,7 +10,8 @@ public class Test {
     public static void main(String[] args)
     {
 //      array();
-        arrayT();
+//      arrayT();
+        arrayDynamic();
     }
 
     public static void array()
@@ -53,6 +54,29 @@ public class Test {
         array.addLast(1002);
         System.out.println(array);
 
+        array.removeElement(5);
+        System.out.println(array);
+    }
+
+
+    public static void arrayDynamic()
+    {
+        DynamicArray<Integer> array = new DynamicArray<Integer>(10);
+        for (int i=0;i<10;i++)
+        {
+            array.addLast(i);
+        }
+        System.out.println(array);
+
+//        array.add(1,1000);
+//        System.out.println(array);
+
+        array.addFirst(1001);
+        System.out.println(array);
+
+//        array.addLast(1002);
+//        System.out.println(array);
+//
         array.removeElement(5);
         System.out.println(array);
     }
